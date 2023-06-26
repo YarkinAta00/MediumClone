@@ -51,7 +51,7 @@ export default {
                     </div>
                 </article>
                 <article class="col-2">
-                    <img class="rounded float-end" src="https://picsum.photos/180/160">
+                    <img class="rounded img-fluid float-end" src="https://picsum.photos/180/160">
                 </article>
             </div>
         </div>
@@ -95,7 +95,7 @@ export default {
                     </div>
                 </article>
                 <article class="col-2">
-                    <img class="rounded float-end" src="https://picsum.photos/180/160">
+                    <img class="rounded img-fluid float-end" src="https://picsum.photos/180/160">
                 </article>
             </div>
         </div>
@@ -144,7 +144,7 @@ export default {
                     </div>
                 </article>
                 <article class="col-2">
-                    <img class="rounded float-end" src="https://picsum.photos/180/160">
+                    <img class="rounded img-fluid float-end" src="https://picsum.photos/180/160">
                 </article>
             </div>
 
@@ -189,7 +189,7 @@ export default {
                     </div>
                 </article>
                 <article class="col-2">
-                    <img class="rounded float-end" src="https://picsum.photos/180/160">
+                    <img class="rounded img-fluid float-end" src="https://picsum.photos/180/160">
                 </article>
             </div>
         </div>
@@ -237,7 +237,7 @@ export default {
                     </div>
                 </article>
                 <article class="col-2">
-                    <img class="rounded float-end" src="https://picsum.photos/180/160">
+                    <img class="rounded img-fluid float-end" src="https://picsum.photos/180/160">
                 </article>
             </div>
         </div>
