@@ -1,7 +1,6 @@
 <script>
 export default {
     name: 'BigTitlePart',
-   
 }
 </script>
 
@@ -9,7 +8,7 @@ export default {
     <div class="py-5 border-bottom border-dark 1px solid mt-5" style="background-color:rgb(255, 192, 23);">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-6 px-4">
+                <div class="col-6 px-5">
                     <h1 class="display-1 ">
                         <strong>
                             Stay curious.

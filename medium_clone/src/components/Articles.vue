@@ -11,14 +11,14 @@ export default {
                 <div class="col-12">
                     <h6 class="ml-3">
                         <small>
-                            <strong>
+                            <strong class="px-5">
                                 Trending on Medium
                             </strong>
                         </small>
                     </h6>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
                 <article class="col-sm-4">
                     <div class="row">
                         <div class="col-1 px-2">
@@ -26,7 +26,7 @@ export default {
                                 <h1 class="display-6" style="color:rgb(230, 230, 230);">01</h1>
                             </strong>
                         </div>
-                        <div class="col-11 px-5 py-1">
+                        <div class="col-11 px-5 py-2">
                             <img class="rounded-circle" src="https://picsum.photos/30/30">
                             <span class="px-2"> JP Brown</span>
                         </div>
@@ -39,7 +39,7 @@ export default {
                                 </strong>
                             </small>
                         </h5>
-                        <ul class="list-unstyled px-5 py-1">
+                        <ul class="list-unstyled px-5">
                             <li>
                                 <small class="text-secondary">
                                     Jun 2 22 - 4 min read
@@ -55,7 +55,7 @@ export default {
                                 <h1 class="display-6" style="color:rgb(230, 230, 230);">02</h1>
                             </strong>
                         </div>
-                        <div class="col-11 px-5 py-1">
+                        <div class="col-11 px-5 py-2">
                             <img class="rounded-circle" src="https://picsum.photos/30/30">
                             <span class="px-2"> Rocco Pendola</span>
                         </div>
@@ -68,7 +68,7 @@ export default {
                                 </strong>
                             </small>
                         </h5>
-                        <ul class="list-unstyled px-5 py-1">
+                        <ul class="list-unstyled px-5">
                             <li>
                                 <small class="text-secondary">
                                     Jun 2 22 - 6 min read
@@ -84,7 +84,7 @@ export default {
                                 <h1 class="display-6" style="color:rgb(230, 230, 230);">03</h1>
                             </strong>
                         </div>
-                        <div class="col-11 px-5 py-1">
+                        <div class="col-11 px-5 py-2">
                             <img class="rounded-circle" src="https://picsum.photos/30/30">
                             <span class="px-2"> Avi Loeb </span>
                         </div>
@@ -97,7 +97,7 @@ export default {
                                 </strong>
                             </small>
                         </h5>
-                        <ul class="list-unstyled px-5 py-1">
+                        <ul class="list-unstyled px-5">
                             <li>
                                 <small class="text-secondary">
                                     Jun 2 22 - 5 min read
@@ -113,7 +113,7 @@ export default {
                                 <h1 class="display-6" style="color:rgb(230, 230, 230);">04</h1>
                             </strong>
                         </div>
-                        <div class="col-11 px-5 py-1">
+                        <div class="col-11 px-5 py-2">
                             <img class="rounded-circle" src="https://picsum.photos/30/30">
                             <span class="px-2"> Medium Staff</span>
                         </div>
@@ -126,7 +126,7 @@ export default {
                                 </strong>
                             </small>
                         </h5>
-                        <ul class="list-unstyled px-5 py-1">
+                        <ul class="list-unstyled px-5">
                             <li>
                                 <small class="text-secondary">
                                     Jun 2 22 - 4 min read
@@ -142,7 +142,7 @@ export default {
                                 <h1 class="display-6" style="color:rgb(230, 230, 230);">05</h1>
                             </strong>
                         </div>
-                        <div class="col-11 px-5 py-1">
+                        <div class="col-11 px-5 py-2">
                             <img class="rounded-circle" src="https://picsum.photos/30/30">
                             <span class="px-2"> Nick Wignall</span>
                         </div>
@@ -155,7 +155,7 @@ export default {
                                 </strong>
                             </small>
                         </h5>
-                        <ul class="list-unstyled px-5 py-1">
+                        <ul class="list-unstyled px-5">
                             <li>
                                 <small class="text-secondary">
                                     Jun 2 22 - 6 min read
@@ -171,7 +171,7 @@ export default {
                                 <h1 class="display-6" style="color:rgb(230, 230, 230);">06</h1>
                             </strong>
                         </div>
-                        <div class="col-11 px-5 py-1">
+                        <div class="col-11 px-5 py-2">
                             <img class="rounded-circle" src="https://picsum.photos/30/30">
                             <span class="px-2"> Jahanzeb Ali Rizvi </span>
                         </div>
@@ -184,7 +184,7 @@ export default {
                                 </strong>
                             </small>
                         </h5>
-                        <ul class="list-unstyled px-5 py-1">
+                        <ul class="list-unstyled px-5">
                             <li>
                                 <small class="text-secondary">
                                     Jun 2 22 - 5 min read
