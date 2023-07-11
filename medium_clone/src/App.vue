@@ -19,6 +19,5 @@ export default {
   <BigTitlePart />
   <Articles />
   <BottomArticles />
-
 </template>
 

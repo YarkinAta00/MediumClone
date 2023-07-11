@@ -1,199 +1,45 @@
 <script>
+import ArticleItem from './ArticleItem.vue';
 export default {
-    name: 'Articles',
+    data() {
+        return {
+            imgUrl: 'https://picsum.photos/30/30',
+        }
+    },
+    components: {
+        ArticleItem,
+    },
 }
 </script>
 
 <template>
-    <div class="border border-secondary-subtle 1.5px solid">
-        <div class="container mt-5 px-5">
-            <div class="row mt-3 mb-4">
-                <div class="col-12">
-                    <h6 class="ml-3">
-                        <small>
-                            <strong class="px-5">
-                                Trending on Medium
-                            </strong>
-                        </small>
-                    </h6>
-                </div>
+    <div class="border-bottom border-secondary-subtle 1.5px solid mx-3 pb-4">
+        <div class="row pt-4 mt-3 mb-4">
+            <div class="col-12">
+                <h6 class="ml-3">
+                    <small>
+                        <strong class="px-5">
+                            Trending on Medium
+                        </strong>
+                    </small>
+                </h6>
             </div>
-            <div class="row mb-3">
-                <article class="col-sm-4">
-                    <div class="row">
-                        <div class="col-1 px-2">
-                            <strong>
-                                <h1 class="display-6" style="color:rgb(230, 230, 230);">01</h1>
-                            </strong>
-                        </div>
-                        <div class="col-11 px-5 py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/30/30">
-                            <span class="px-2"> JP Brown</span>
-                        </div>
-                    </div>
-                    <div class="col-11">
-                        <h5 class="px-5">
-                            <small>
-                                <strong class="px-1">
-                                    What Really Happens to a Human Body at Titanic Depths
-                                </strong>
-                            </small>
-                        </h5>
-                        <ul class="list-unstyled px-5">
-                            <li>
-                                <small class="text-secondary">
-                                    Jun 2 22 - 4 min read
-                                </small>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="col-sm-4">
-                    <div class="row">
-                        <div class="col-1 px-2">
-                            <strong>
-                                <h1 class="display-6" style="color:rgb(230, 230, 230);">02</h1>
-                            </strong>
-                        </div>
-                        <div class="col-11 px-5 py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/30/30">
-                            <span class="px-2"> Rocco Pendola</span>
-                        </div>
-                    </div>
-                    <div class="col-11">
-                        <h5 class="px-5">
-                            <small>
-                                <strong class="px-1">
-                                    America Failed Generation X
-                                </strong>
-                            </small>
-                        </h5>
-                        <ul class="list-unstyled px-5">
-                            <li>
-                                <small class="text-secondary">
-                                    Jun 2 22 - 6 min read
-                                </small>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="col-sm-4">
-                    <div class="row">
-                        <div class="col-1 px-2">
-                            <strong>
-                                <h1 class="display-6" style="color:rgb(230, 230, 230);">03</h1>
-                            </strong>
-                        </div>
-                        <div class="col-11 px-5 py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/30/30">
-                            <span class="px-2"> Avi Loeb </span>
-                        </div>
-                    </div>
-                    <div class="col-11">
-                        <h5 class="px-5">
-                            <small>
-                                <strong class="px-1">
-                                    Finding a Needle in the Ocean
-                                </strong>
-                            </small>
-                        </h5>
-                        <ul class="list-unstyled px-5">
-                            <li>
-                                <small class="text-secondary">
-                                    Jun 2 22 - 5 min read
-                                </small>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="col-sm-4">
-                    <div class="row">
-                        <div class="col-1 px-2">
-                            <strong>
-                                <h1 class="display-6" style="color:rgb(230, 230, 230);">04</h1>
-                            </strong>
-                        </div>
-                        <div class="col-11 px-5 py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/30/30">
-                            <span class="px-2"> Medium Staff</span>
-                        </div>
-                    </div>
-                    <div class="col-11">
-                        <h5 class="px-5">
-                            <small>
-                                <strong class="px-1">
-                                    Register now for Medium Day
-                                </strong>
-                            </small>
-                        </h5>
-                        <ul class="list-unstyled px-5">
-                            <li>
-                                <small class="text-secondary">
-                                    Jun 2 22 - 4 min read
-                                </small>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="col-sm-4">
-                    <div class="row">
-                        <div class="col-1 px-2">
-                            <strong>
-                                <h1 class="display-6" style="color:rgb(230, 230, 230);">05</h1>
-                            </strong>
-                        </div>
-                        <div class="col-11 px-5 py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/30/30">
-                            <span class="px-2"> Nick Wignall</span>
-                        </div>
-                    </div>
-                    <div class="col-11">
-                        <h5 class="px-5">
-                            <small>
-                                <strong class="px-1">
-                                    4 Mental Habits that Cause Low Self-Esteem
-                                </strong>
-                            </small>
-                        </h5>
-                        <ul class="list-unstyled px-5">
-                            <li>
-                                <small class="text-secondary">
-                                    Jun 2 22 - 6 min read
-                                </small>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <article class="col-sm-4">
-                    <div class="row">
-                        <div class="col-1 px-2">
-                            <strong>
-                                <h1 class="display-6" style="color:rgb(230, 230, 230);">06</h1>
-                            </strong>
-                        </div>
-                        <div class="col-11 px-5 py-2">
-                            <img class="rounded-circle" src="https://picsum.photos/30/30">
-                            <span class="px-2"> Jahanzeb Ali Rizvi </span>
-                        </div>
-                    </div>
-                    <div class="col-11">
-                        <h5 class="px-5">
-                            <small>
-                                <strong class="px-1">
-                                    Title: Stark Contrasts: Desperate Search for Missing Submarine versus...
-                                </strong>
-                            </small>
-                        </h5>
-                        <ul class="list-unstyled px-5">
-                            <li>
-                                <small class="text-secondary">
-                                    Jun 2 22 - 5 min read
-                                </small>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
+        </div>
+        <div class="row mb-3 px-4">
+            <ArticleItem articleName="What Really Happens to a Human Body at Titanic Depths"
+                articleImage="https://picsum.photos/30/30" articleNumber="01" articleAuthor="JP Brown"
+                articleDate="Jun 2 22 - 4 min read" />
+            <ArticleItem articleName="America Failed Generation X" articleImage="https://picsum.photos/30/30"
+                articleNumber="02" articleAuthor="Rocco Pendola" articleDate="Jun 2 22 - 6 min read" />
+            <ArticleItem articleName="Finding a Needle in the Ocean" articleImage="https://picsum.photos/30/30"
+                articleNumber="03" articleAuthor="Avi Loeb" articleDate="Jun 2 22 - 5 min read" />
+            <ArticleItem articleName="Register now for Medium Day" articleImage="https://picsum.photos/30/30"
+                articleNumber="04" articleAuthor="Medium Staff" articleDate="Jun 2 22 - 4 min read" />
+            <ArticleItem articleName="4 Mental Habits that Cause Low Self-Esteem" articleImage="https://picsum.photos/30/30"
+                articleNumber="05" articleAuthor="Nick Wignall" articleDate="Jun 2 22 - 6 min read" />
+            <ArticleItem articleName="Stark Contrasts: Desperate Search for Missing Submarine versus..."
+                articleImage="https://picsum.photos/30/30" articleNumber="06" articleAuthor="Jahanzeb Ali Rizvi"
+                articleDate="Jun 2 22 - 5 min read" />
         </div>
     </div>
 </template>
