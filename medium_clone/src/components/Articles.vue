@@ -28,18 +28,18 @@ export default {
         <div class="row mb-3 px-4">
             <ArticleItem articleName="What Really Happens to a Human Body at Titanic Depths"
                 articleImage="https://picsum.photos/30/30" articleNumber="01" articleAuthor="JP Brown"
-                articleDate="Jun 2 22 - 4 min read" />
+                articleDate="Jun 2 - 4 min read" />
             <ArticleItem articleName="America Failed Generation X" articleImage="https://picsum.photos/30/30"
-                articleNumber="02" articleAuthor="Rocco Pendola" articleDate="Jun 2 22 - 6 min read" />
+                articleNumber="02" articleAuthor="Rocco Pendola" articleDate="Jun 6 - 6 min read" />
             <ArticleItem articleName="Finding a Needle in the Ocean" articleImage="https://picsum.photos/30/30"
-                articleNumber="03" articleAuthor="Avi Loeb" articleDate="Jun 2 22 - 5 min read" />
+                articleNumber="03" articleAuthor="Avi Loeb" articleDate="Jun 10 - 5 min read" />
             <ArticleItem articleName="Register now for Medium Day" articleImage="https://picsum.photos/30/30"
-                articleNumber="04" articleAuthor="Medium Staff" articleDate="Jun 2 22 - 4 min read" />
+                articleNumber="04" articleAuthor="Medium Staff" articleDate="Jun 15 - 4 min read" />
             <ArticleItem articleName="4 Mental Habits that Cause Low Self-Esteem" articleImage="https://picsum.photos/30/30"
-                articleNumber="05" articleAuthor="Nick Wignall" articleDate="Jun 2 22 - 6 min read" />
+                articleNumber="05" articleAuthor="Nick Wignall" articleDate="Jun 18 - 6 min read" />
             <ArticleItem articleName="Stark Contrasts: Desperate Search for Missing Submarine versus..."
                 articleImage="https://picsum.photos/30/30" articleNumber="06" articleAuthor="Jahanzeb Ali Rizvi"
-                articleDate="Jun 2 22 - 5 min read" />
+                articleDate="Jun 22 - 5 min read" />
         </div>
     </div>
 </template>
